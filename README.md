@@ -30,3 +30,38 @@ This project is a comprehensive data exploration and visualization dashboard bui
 
 ## 📁 Project Structure
 
+
+---
+
+## 📊 Visualizations Included
+
+- 📈 Crop-wise yield trends over 50 years
+- 🗺️ State & district-level top producers
+- 📉 Correlation between area and production
+- 📌 Year-on-year crop performance (bar/line charts)
+- 🔄 Comparison across multiple crops (e.g. rice vs wheat)
+
+---
+
+## 🧹 Data Cleaning
+
+- Removed nulls and inconsistencies
+- Unified naming conventions for states/districts
+- Converted all numeric columns to appropriate dtypes
+- Handled missing yield/area/production values
+- Renamed and standardized column headers
+
+---
+
+## 🛢️ Database Connection
+
+Data was inserted into PostgreSQL using SQLAlchemy for flexibility and psycopg2 for optimized query execution.
+
+```python
+from sqlalchemy import create_engine
+import pandas as pd
+
+engine = create_engine('postgresql+psycopg2://username:password@localhost:5432/dbname')
+df.to_sql('agri_data', engine, index=False, if_exists='replace')
+
+
