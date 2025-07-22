@@ -30,6 +30,29 @@ This project is a comprehensive data exploration and visualization dashboard bui
 
 ## 📁 Project Structure
 
+agri-data-dashboard/
+│
+├── 📁 data/
+│   ├── raw_data.csv                 # Original unprocessed dataset
+│   ├── cleaned_data.csv             # Cleaned dataset used for dashboard/EDA
+│
+├── 📁 scripts/
+│   ├── data_cleaning.py             # Python script for cleaning and transforming raw data
+│   ├── data_loader.py               # Loads cleaned data into PostgreSQL using SQLAlchemy/psycopg2
+│   ├── eda_visuals.py               # Reusable EDA plots (optional: can be imported into Streamlit)
+│
+├── 📁 images/
+│   └── dashboard_view.png           # Screenshots of dashboard for README or documentation
+│
+├── 📁 notebooks/
+│   └── EDA_analysis.ipynb           # Jupyter notebook for initial EDA and plotting (optional)
+│
+├── app.py                           # Main Streamlit app (interactive dashboard)
+├── requirements.txt                 # All Python package dependencies
+├── README.md                        # Project overview, setup instructions, and screenshots
+└── .gitignore                       # Files/folders to ignore in Git (e.g., `.env`, `.DS_Store`, etc.)
+
+
 
 ---
 
