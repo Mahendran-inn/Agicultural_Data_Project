@@ -56,12 +56,11 @@ This project includes a **Power BI dashboard** for powerful data-driven storytel
 - 📊 Top crops and high-yielding regions
 - 🗃️ Filters for crop, year, state, district
 
-📁 Power BI report is available here:  
-`/powerbi/agri_dashboard.pbix`
-
 🖼️ Sample Power BI Visual:
 
-![Power BI Sample](powerbi/screenshots/powerbi_screenshot1.png)
+![Power BI Sample](<img width="766" height="433" alt="image" src="https://github.com/user-attachments/assets/90c8d167-e57c-4594-9b88-47e20445dc8e" />
+<img width="763" height="431" alt="image" src="https://github.com/user-attachments/assets/af7347ac-8b37-4228-ac00-14c82304449a" />
+)
 
 ---
 
@@ -83,8 +82,8 @@ This project includes a **Power BI dashboard** for powerful data-driven storytel
 
 | Dataset Used | Purpose                                |
 |--------------|----------------------------------------|
-| `agri_cleaned_dataset.csv` | Used for Power BI, SQL analysis, and Python EDA |
-| `streamlit_dataset.csv`     | Lightweight version for use in Streamlit         |
+| `Agri_cleaned_dataset.csv`  | Used for Power BI, SQL analysis, and Python EDA |
+| `Agri_filtered_dataset.csv` | Lightweight version for use in Streamlit        |
 
 ---
 
